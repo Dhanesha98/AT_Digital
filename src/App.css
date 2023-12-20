@@ -1,38 +1,353 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding-top: 77px; /* Adjust the value based on your navbar height */
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/**Navbar**/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  height: 77px;
+  width: 100%; /* Set width to 100% */
+  background-color: #6B3CC9;
+  position: fixed; 
+  top: 0;
+  z-index: 1000; /* Add z-index to ensure the navbar is above other elements */
+}
+
+
+.nav-logo-container{
+width: 238.89px;
+height: 25px;
+margin: 10px 25px 25px 40px;
+
+
+}
+
+.navbar-links-container a {
+  margin-right: 3rem;
+  text-decoration: none;
   color: white;
+  font-weight: 500;
+  font: inter;
+  font-size: 14px;
+  line-height: 16.94px;
+  width: Hug (381px);
+  height: Hug (17px);
+  gap: 28px;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/**Content**/
+
+
+
+.image-container img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 77px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.frame-box {
+  position: absolute;
+  width: Fixed (630px);
+height: 306px;
+top: 520px;
+left: 80px;
+padding: 24px, 40px, 32px, 40px;
+gap: 20px;
+
+  background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%),
+  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  
+  
 }
+
+.text-inside-box {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  width: 550px;
+  height: 192px;
+  margin: 30px -8px 60px 40px;
+  color: white;
+  text-transform: capitalize;
+
+
+}
+
+.btnn button{
+  width: Hug (500px);
+  height: Hug (80px);
+  padding: 14px 40px;
+  border-radius: 4px;
+  gap: 8px;
+  background-color: #F28D35;
+  border: #F28D35;
+  margin: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button p{
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+.row {  
+  display: flex;
+}
+
+/**section1*/
+.container1 {
+  width: 100%;
+  height: 414px;
+  top: 857px;
+  left: 188px;
+  gap: 108px;
+}
+
+
+.image-container2{
+  width: 400x;
+  height: 400px;
+  margin: 10px 30px 10px 50%;
+}
+
+
+
+.container1 .col-sm-8{
+  width: Fixed (542px);
+  height: Hug (187px);
+  margin: 130px 200px 10px 25%;
+
+  
+
+
+}
+
+.container1 .col-sm-8 p{
+  font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 13px;
+
+}
+.container1 .col-sm-8 h6{
+  font-family: sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+  color: #6B3CC9;
+  
+}
+
+.container1 .col-sm-8 button{
+ 
+  width: Hug (145px);
+  height: Hug (800px);
+  cursor: pointer;
+  border-radius: 4px;
+  gap: 8px;
+  background-color: #F28D35;
+  border: #F28D35;
+  padding: 12px 30px;
+  margin-top: 23px;
+  
+}
+
+.container1 .col-sm-8 button p{
+  font-family: sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: -0.02em;
+text-align: left;
+color: white;
+text-transform: uppercase;
+display: inline-block;
+
+}
+
+/**section2*/
+.container2 {
+  width: 100%;
+  height: 414px;
+  top: 857px;
+  left: 188px;
+  gap: 108px;
+}
+
+
+
+.container2 .col-sm-8{
+  width: Fixed (542px);
+  height: Hug (187px);
+  margin: 120px -40px 10px 15%;
+  
+
+
+}
+
+.container2 .col-sm-8 p{
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 13px;
+
+}
+.container2 .col-sm-8 h6{
+  font-family: sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+  color: #6B3CC9;
+  ;
+}
+
+.container2 .col-sm-8 button{
+ 
+  width: Hug (145px);
+  height: Hug (800px);
+  padding: 12px 30px;
+  border-radius: 4px;
+  gap: 8px;
+  background-color: #F28D35;
+  border: #F28D35;
+  cursor: pointer;
+  margin-top: 23px;
+  
+  
+  
+}
+
+.container2 .col-sm-8 button p{
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+
+}
+
+.image-container1{
+  width: 400x;
+  height: 400px;
+  margin: 10px 450px 60px 20%;
+}
+
+
+
+/**Footer**/
+
+.footer{
+  background-color: #6B3CC9;
+  width: Fixed (1,440px);
+  height: 260px;
+  top: 1867px;
+  padding: 50px, 80px, 20px, 80px;
+  gap: 40px;
+  color: white;
+  margin-top: 15px;
+}
+
+
+.footer .nav-logo-container{
+  margin: 40px 30px 30px 40px;
+
+}
+
+.footer .col-lg-6 p{
+  margin: 10px 55% 40px 40px;
+  font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.footer .col-lg-3 {
+  margin:50px 70px 20px 100px;
+}
+
+.footer .col-lg-3 .type{
+  padding-top:4px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.footer .col-lg-3 .topic{
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.footage table {
+  border-collapse: collapse;
+  margin-inline-start: 40%
+}
+
+.footage td {
+  padding: 0 10px;
+}
+
+.line {
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 5px; 
+  margin-top: 10px;
+  width: 600px;
+  margin-inline-start: 31%
+
+}
+
