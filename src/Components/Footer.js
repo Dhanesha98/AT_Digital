@@ -45,18 +45,7 @@ const Footer = () => {
       </div>
     </div>
     <div class="text-center p-3">
-  <div className="footage">
-  <div className="line"></div>
-    <table>
-      <tbody>
-        <tr>
-          <td>Privacy Policy</td>
-          <td>|</td>
-          <td>Terms & Conditions</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  
  
 </div>
 

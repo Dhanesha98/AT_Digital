@@ -332,22 +332,3 @@ text-align: left;
 
 }
 
-.footage table {
-  border-collapse: collapse;
-  margin-inline-start: 40%
-}
-
-.footage td {
-  padding: 0 10px;
-}
-
-.line {
-  height: 1px;
-  background-color: #ccc;
-  margin-bottom: 5px; 
-  margin-top: 10px;
-  width: 600px;
-  margin-inline-start: 31%
-
-}
-
